@@ -63,7 +63,7 @@ class ExampleUnitTest {
         }
         
         // 얘 왜 print 안되는지 확인 필요
-        // () 아니고 {} 씀
+        // ** () 아니고 {} 씀
         // Kotlin
 
 
@@ -155,7 +155,6 @@ fun strLen(s:String?) : Int =
 
     fun strLenSafe(s: String?): Int = s?.length ?: 0
 
-        
         // with 구문
         // 1) with 는 null-safe 가 아니다, null을 받을 수 없음
 
@@ -182,7 +181,7 @@ fun strLen(s:String?) : Int =
         
         //3) apply >
         // 수신 객체 this
-        // null - safe x
+        // null-safe x
         // 주 사용 > 객체 초기화
         
         // 4) let >
